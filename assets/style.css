@@ -8,6 +8,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -58,7 +63,7 @@ a {
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    min-height: 110vh;
+    height: 100vh;
 }
 
 .navbar {
